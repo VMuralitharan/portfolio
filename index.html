@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+   <header>
+    <nav class="glass-nav">
+        <div class="logo">dev.</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Connect</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="hanging-image">
+                <img src="images/header-icon.png" alt="Header Icon">
+            </div>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <main>
+       <section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h4 class="greeting">Hi, This is</h4>
+            <h1 class="name">[AJ Paandi]</h1>
+            <h2 class="title">I build things for the web.</h2>
+            <p class="bio">I'm a computer science student specializing in web development and machine learning. Currently focused on creating digital experiences that matter.</p>
+            <a href="#projects" class="cta-btn">
+                View my work <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="./R.jfif" alt="Profile Photo">
+                <div class="image-border"></div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="line"></div>
+    </div>
+</section>
+
+        <section id="projects" class="projects">
+    <div class="section-header">
+        <h2 class="section-title">/projects</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="E-Commerce Project">
+                <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <div class="folder-icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/project1" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="external-link" aria-label="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">E-Commerce Platform</h3>
+                <p class="project-desc">
+                    Full-stack e-commerce solution with modern UI, secure payments, and admin dashboard.
+                </p>
+                <div class="project-tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" title="MongoDB">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg" alt="Stripe" title="Stripe">
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="ML Project">
+                <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <div class="folder-icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/project2" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">Sentiment Analysis AI</h3>
+                <p class="project-desc">
+                    NLP model with 92% accuracy analyzing customer reviews and social media sentiment.
+                </p>
+                <div class="project-tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Task App">
+                <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <div class="folder-icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/project3" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="external-link" aria-label="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">TaskFlow Manager</h3>
+                <p class="project-desc">
+                    Collaborative task management with real-time updates, drag-and-drop interface, and team features.
+                </p>
+                <div class="project-tech">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" title="Vue.js">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" title="Firebase">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" title="Tailwind CSS">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="about" class="about">
+    <div class="section-header">
+        <h2 class="section-title">/about-me</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="about-content">
+        <div class="about-text">
+            <div class="about-intro">
+                <h3>Hello World! <span class="wave">👋</span></h3>
+                <p>
+                    I'm <span class="highlight">[Your Name]</span>, a passionate computer science student specializing in full-stack development and AI solutions. My coding journey began when I built my first website at 15, sparking a lifelong fascination with technology.
+                </p>
+                <p>
+                    Currently pursuing my <span class="highlight">Bachelor's in Computer Science</span> at [Your University], I combine academic rigor with hands-on projects that challenge me to grow. I'm particularly interested in building scalable web applications and intelligent systems.
+                </p>
+                <p>
+                    When I'm not immersed in code, you'll find me contributing to <span class="highlight">open-source projects</span>, exploring new tech stacks, or sharing knowledge through tech blogs and student mentorship.
+                </p>
+            </div>
+            
+            <div class="skills-section">
+                <h3 class="skills-title">My Tech Stack</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4 class="category-title">Languages</h4>
+                        <div class="skill-icons">
+                            <div class="tech-icon" title="JavaScript">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-icon" title="Python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-icon" title="Java">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">Frontend</h4>
+                        <div class="skill-icons">
+                            <div class="tech-icon" title="React">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="tech-icon" title="Vue.js">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+                                <span>Vue</span>
+                            </div>
+                            <div class="tech-icon" title="HTML5">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">Backend</h4>
+                        <div class="skill-icons">
+                            <div class="tech-icon" title="Node.js">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-icon" title="Express">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+                                <span>Express</span>
+                            </div>
+                            <div class="tech-icon" title="Django">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+                                <span>Django</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">Tools</h4>
+                        <div class="skill-icons">
+                            <div class="tech-icon" title="Git">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="tech-icon" title="Docker">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                <span>Docker</span>
+                            </div>
+                            <div class="tech-icon" title="VS Code">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="about-image">
+            <div class="image-wrapper">
+                <img src="./R.jfif" alt="Profile Photo" class="profile-img">
+                <div class="image-border"></div>
+                <div class="image-dots"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="contact" class="contact">
+    <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Get in touch for opportunities or just to say hello!</p>
+    </div>
+    
+    <div class="contact-container">
+        <div class="contact-content">
+            <div class="contact-card">
+                <div class="contact-header">
+                    <i class="fas fa-paper-plane contact-icon"></i>
+                    <h3>Send Me a Message</h3>
+                </div>
+                <p>
+                    I'm currently exploring internship opportunities and exciting collaborations. 
+                    Whether you have a project in mind or just want to connect, I'd love to hear from you.
+                </p>
+                <a href="mailto:your.email@example.com" class="cta-btn">
+                    <span>Email Me</span>
+                    <div class="arrow-wrapper">
+                        <div class="arrow"></div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="contact-social">
+                <h3>Find Me Online</h3>
+                <div class="social-grid">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-card" aria-label="GitHub">
+                        <div class="social-icon github">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-card" aria-label="LinkedIn">
+                        <div class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                    
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-card" aria-label="Twitter">
+                        <div class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <span>Twitter</span>
+                    </a>
+                    
+                    <a href="https://instagram.com/yourusername" target="_blank" class="social-card" aria-label="Instagram">
+                        <div class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-decoration">
+            <div class="decoration-circle"></div>
+            <div class="decoration-dots"></div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by [Your Name]</p>
+        <p class="copyright">&copy; <span id="year"></span> All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
