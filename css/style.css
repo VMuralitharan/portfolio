@@ -372,7 +372,6 @@ body {
     height: 32px;
     object-fit: contain;
     transition: var(--transition);
-    filter: grayscale(100%) contrast(0.5);
 }
 
 .project-tech img:hover {
@@ -399,9 +398,6 @@ body.light-mode .project-desc {
     color: var(--dark-gray);
 }
 
-body.light-mode .project-tech img {
-    filter: grayscale(100%) contrast(0.8);
-}
 
 /* Add these to your :root variables */
 :root {
@@ -430,6 +426,8 @@ body.light-mode .project-tech img {
     margin-bottom: 1.5rem;
     color: var(--primary);
 }
+
+
 
 .about-intro p {
     color: var(--gray);
